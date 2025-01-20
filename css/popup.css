@@ -1,0 +1,48 @@
+:root {
+  --text-color: #eee;
+  --background-color: #4e4e4e;
+}
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  min-width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  display: grid;
+  font-size: 17px;
+  grid-template-rows: 1fr 6fr 1fr;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30lpx;
+}
+
+h1 span {
+  font-size: 0.8em;
+  color: #d2ecfd;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 10fr 2fr 2fr;
+  place-items: center;
+}
+
+main section p {
+  justify-self: start;
+}
+
+img {
+  max-height: 70px;
+  max-width: 45px;
+}
+
+.clickable:hover img {
+  cursor: pointer;
+}
