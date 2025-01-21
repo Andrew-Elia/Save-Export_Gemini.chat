@@ -1,0 +1,24 @@
+@page {
+  margin: 0cm;
+  padding-top: 1cm;
+  padding-bottom: 30cm;
+  background-color: #4b4b4b;
+}
+
+/* * {
+  break-inside: avoid;
+} */
+
+html,
+body {
+  background-color: #4b4b4b;
+}
+pre,
+code,
+p {
+  break-inside: avoid;
+}
+
+div.conversation-container {
+  break-before: always !important;
+}
