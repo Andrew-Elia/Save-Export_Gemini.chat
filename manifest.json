@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Save/Export Gemini Chats",
   "description": "An Extension allowing users to export/save Gemini (Google's AI model) as a jpg or a pdf",
+  "permissions": ["activeTab", "scripting"],
   "author": "Andrew Elia",
   "version": "0.1.0",
   "icons": {

@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  line-break: auto;
+  line-break: anywhere;
   text-wrap: wrap;
 }
 :root {
@@ -46,9 +46,10 @@ user-query {
   align-self: flex-end;
   background-color: var(--background-color);
   padding: 10px 20px 10px 40px;
-  border-radius: 20px 5px 20px 20px;
+  border-radius: 74px 13px 97px 44px;
   margin-bottom: 7px;
   color: #bdf6ff;
+  max-width: max(75%, 400px);
 }
 
 /* query text */
